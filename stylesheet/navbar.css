@@ -1,0 +1,35 @@
+#page_logo{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 99%;
+    height: 50px;
+    top: 10px;
+    justify-content: center;
+}
+#navigation a{
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    color: gray;
+    transition: color 0.1s ease-in;
+    text-decoration: none;
+    font-size: 25px;
+}
+#navigation a:hover{
+    color: black;
+}
+hr.separator{
+    width: auto;
+    height: 2px;
+    background-color: #000;
+}

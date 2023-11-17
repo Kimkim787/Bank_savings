@@ -1,0 +1,43 @@
+html{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+main{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 10% 5%;
+}
+#text_div h1{
+    margin: 0 auto 0 auto;
+    font-size: 80px;
+    color: blueviolet;
+}
+#text_div p{
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+#text_div button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+#text_div button:hover{
+    background-color: coral;
+    color: black;
+}
+#description{
+    max-width: 80%;
+}
+#image_div #image{
+    display: flex;
+    max-width: 650px;
+    max-height: 650px;
+    border-radius: 30px;
+}
