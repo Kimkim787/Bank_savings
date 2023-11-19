@@ -1,0 +1,22 @@
+main{
+    margin-top: 5%;
+
+}
+.grid_container{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+}
+.text{
+    font-size: 2rem;
+    background-color: grey;
+    margin: auto;
+    max-width: 80%;
+    max-height: 400px;
+}
+#chat_container{
+    background-color: brown;
+    width: 80%;
+    height: 600px;
+}
