@@ -10,25 +10,28 @@ main{
 }
 .text{
     font-size: 2rem;
-    background-color: grey;
+    background-color: #a7a1ce;
     margin: auto;
     max-width: 80%;
-    max-height: 400px;
+    max-height: 600px;
     border-radius: 20px;
     padding: 10px;
 }
 #chat_container{
     position: relative;
-    background-color: brown;
+    background-color: #4d2d52;
     width: 80%;
     height: 600px;
+    max-height: 600px;
     margin: 10% 0;
+    border: 5px solid #000;
+    border-radius: 50px;
 }
 #chat{
     margin: 5% auto 0 auto;
     background-color: bisque;
     border-radius: 20px;
-    height: 80%;
+    height: 75%;
     width: 80%;
 }
 #chat_container form{
@@ -37,4 +40,25 @@ main{
     margin: 10px auto 10px auto;
     display: flex;
     justify-content: center;
+    height: 10%;
+}
+#message{
+    padding: 10px;
+    font-size: 1.5em;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    resize: none;
+}
+#message::-webkit-scrollbar {
+    display: none;
+  }
+#send_btn{
+    font-size: 1.5rem;
+    width: 15%;
+    margin-left: 10px;
+    height: 110%;
+    border-radius: 50px;
+    background-color: #3499ff;
 }
