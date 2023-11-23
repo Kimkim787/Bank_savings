@@ -14,9 +14,27 @@ main{
     margin: auto;
     max-width: 80%;
     max-height: 400px;
+    border-radius: 20px;
+    padding: 10px;
 }
 #chat_container{
+    position: relative;
     background-color: brown;
     width: 80%;
     height: 600px;
+    margin: 10% 0;
+}
+#chat{
+    margin: 5% auto 0 auto;
+    background-color: bisque;
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+}
+#chat_container form{
+    position: relative;
+    bottom: 0;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: center;
 }
