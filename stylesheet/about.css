@@ -1,0 +1,29 @@
+main{
+    margin: 0 5%;
+    margin-top: 5%;
+    background: rgb(189, 188, 188);
+    padding: 5%;
+}
+#ceo_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 100%;
+    max-height: 80%;
+    height: 500px;
+}
+.ceo_image{
+    position: relative;
+    width: 40%;
+    /* background-image: url('/images/4.jpg');
+    background-repeat: no-repeat; */
+}
+.ceo_info_container{
+    font-size: 2rem;
+    width: 40%;
+}
+h2.ceo_name{
+    font-size: 3rem;
+    text-align: center;
+}
