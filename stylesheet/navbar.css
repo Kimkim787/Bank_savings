@@ -20,13 +20,13 @@ nav{
 #navigation a{
     font-size: 1.5rem;
     margin: 0 2rem;
-    color: gray;
+    color: #9073b3;
     transition: color 0.1s ease-in;
     text-decoration: none;
     font-size: 25px;
 }
 #navigation a:hover{
-    color: black;
+    color: #8a2be2;
 }
 hr.separator{
     width: auto;

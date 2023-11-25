@@ -1,36 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
 html{
     display: flex;
     flex-direction: row;
     padding: 1rem;
+    height: 100%;
+}
+body{
+    height: 100%;
 }
 main{
-    display:grid;
+    display:flex;
     align-items: center;
     grid-template-columns: 1fr 1fr;
     margin: 10% 5%;
+    justify-content: space-evenly;
+}
+#text_div{
+    width: 50%;
 }
 #text_div h1{
     margin: 0 auto 0 auto;
-    font-size: 80px;
+    font-size: 55px;
+    text-align: justify;
     color: blueviolet;
 }
 #text_div p{
-    font-size: 30px;
+    font-size: 35px;
     text-align: justify;
     text-indent: 50px;
 }
 #text_div button{
-    width: 8rem;
-    height: 3rem;
+    width: 10rem;
+    height: 3.5rem;
     border-radius: 30px;
     border: none;
-    background-color: blueviolet;
+    background-color: #8a2be2;
     color: white;
     transition: all 0.1s ease-in;
+    font-size: 1rem;
 }
 #text_div button:hover{
-    background-color: coral;
-    color: black;
+    background-color: #9073b3;
+    border-radius: 10px;
+    font-weight: 500;
+
 }
 #description{
     max-width: 80%;
