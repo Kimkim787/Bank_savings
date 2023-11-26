@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/navbar.css">
+    <link rel="stylesheet" href="/stylesheet/login.css">
+    <title>Sign-in</title>
+</head>
+<body>
+    <nav>
+        <div id="page_logo">Logo</div>
+        <div id="navigation">
+            <a href="home.html" style="color: #7650a1;">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <div id="login_container">
+            <img class="center_item" id="logo" src="images/genshin.jpg" alt="logo">
+            <h1 class="center_item">Welcome Back</h1>
+            <form action="" method="POST">
+                <input class="userinput block_item" type="email" name="email" placeholder="Enter email" required autofocus>
+                <input class="userinput block_item" type="password" name="password" placeholder="Enter password" required>
+                <div id="inline-container">
+                    <input class="inline-item" id="remember" type="checkbox" name="remember">
+                    <label class="inline-item" for="remember">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <input class="block_item btn" id="submit_button" type="submit" value="Sign-in">
+            </form>
+            <p class="center_item">or</p>
+            <button class="btn">Sign-up</button>
+        </div>
+    </main>
+</body>
+</html>
