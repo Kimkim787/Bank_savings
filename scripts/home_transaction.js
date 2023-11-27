@@ -10,25 +10,29 @@ function show_table_data(){
     for(let i = 0; i < data.length; i++){
         let type;
         let operation;
+        let clss;
         if(data[i].type == 1){
             type = "Deposit";
             operation = "+"
+            clss = "deposit"; 
         }
         else if(data[i].type == 2){
             type = "Withdraw";
             operation = "-"
+            clss = "withdraw";
         }
         else{
             type = "None";
             operation=""
+            clss= "none"
         }
         
         tableContent += `
         <tr>
         <td>${data[i].date}</td>
         <td>&#8369;${data[i].balance.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-        <td>${type}</td>
-        <td>${operation}&#8369;${data[i].value.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+        <td class="${clss}">${type}</td>
+        <td class="${clss}">${operation}&#8369;${data[i].value.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
         </tr>`;
     }
     
