@@ -90,4 +90,13 @@ main{
     top: 0;
     z-index: 1;
 }
+.deposit{
+    color: #008c09 !important;
+}
+.withdraw{
+    color: red !important;
+}
+.none{
+    color: blue !important;
+}
 
