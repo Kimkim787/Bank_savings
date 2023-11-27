@@ -14,7 +14,7 @@ main{
     height: 80px;
     border-radius: 100%;
 }
-#login_container{
+#login_container, #signup_container{
     color: #fff;
     width: 40%;
     display: flex;
@@ -44,18 +44,21 @@ form{
     margin-top: 20px;
     border: 0.5px solid black;
 }
-#inline-container{
+.inline-container{
     width: 95%;
     font-size: 1rem;
     padding-left: 10px;
     margin-top: 5px;
     justify-self: left;
 }
-#inline-container a{
+.inline-container .to_right{
     color: #000;
     position: relative;
     float: right;
     right: 0;
+}
+.inline_item{
+    display: inline;
 }
 #submit_button{
     font-weight: bold;
@@ -72,4 +75,24 @@ form{
 .btn:hover{
     color: #fff;
     background-color: #0950f6;
+}
+#signup_container{
+    display: none;
+}
+.btn-container .btn{
+    margin: 0;
+}
+.btn-container{
+    position: relative;
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_arrow{
+    position: absolute;
+    left: 0;
+    width: 50px; /* Adjust the width of the child element as needed */
+    height: 50px; /* Adjust the height of the child element as needed */
 }
