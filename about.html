@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/stylesheet/navbar.css">
     <link rel="stylesheet" href="/stylesheet/about.css">
     <title>About</title>
-    <script>
+    <!-- <script>
         window.onload = () =>  {
             window.addEventListener("wheel", event => {
                 const delta = Math.sign(event.deltaY);
@@ -19,7 +19,7 @@
                 });
         }
 
-    </script>
+    </script> -->
 </head>
 <body>
     <nav id="navbar">
@@ -32,7 +32,7 @@
         <a class="icon" href="index.html"><img src="/images/logout.png" alt="login"></a>
     </nav>
     <main>
-        <div id="ceo_section">
+        <div class="ceo_section">
             <img class="ceo_image" src="/images/programmer.png" alt="CEO Image">
             <div class="ceo_info_container">
                 <h2 class="ceo_name">Bryan Antier</h2>
@@ -41,29 +41,45 @@
                 </div>
             </div>
         </div>
-        <div id="grid_container">
-            <div class="members_info">
-                <p><b class="member_name">Alcantara Clement</b></p>
-                <img class="members_image" alt="Clement" src="/images/programmer.png">
-                <p>Position: <b class="info">Submarine</b></p>
-            </div>
-            <div class="members_info">
-                <p><b class="member_name">Janlie Pantinople</b></p>
-                <img class="members_image" alt="Janlie" src="/images/programmer.png">
-                <p>Position: <b class="info">McQueen 69</b></p>
-            </div>
-            <div class="members_info">
-                <p><b class="member_name">Jamiah Shane Cabigas</b></p>
-                <img class="members_image" alt="Jamiah" src="/images/programmer.png">
-                <p>Position: <b class="info">???</b></p>
-            </div>
-            <div class="members_info">
-                <p><b class="member_name">Mhar Jhane William</b></p>
-                <img class="members_image" alt="Mhar Jane" src="/images/programmer.png">
-                <p>Position: <b class="info">???</b></p>
+        <div class="ceo_section">
+            <img class="ceo_image" src="/images/programmer.png" alt="CEO Image">
+            <div class="ceo_info_container">
+                <h2 class="ceo_name">Clement Alcantara</h2>
+                <div class="ceo_info">
+                    <p>Position: <b class="info">Submarine</b></p>
+                </div>
             </div>
         </div>
+        <div class="ceo_section">
+            <img class="ceo_image" src="/images/programmer.png" alt="CEO Image">
+            <div class="ceo_info_container">
+                <h2 class="ceo_name">Janlie Pantinople</h2>
+                <div class="ceo_info">
+                    <p>Position: <b class="info">McQueen 69</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="ceo_section">
+            <img class="ceo_image" src="/images/programmer.png" alt="CEO Image">
+            <div class="ceo_info_container">
+                <h2 class="ceo_name">Jamaiah Cabigas</h2>
+                <div class="ceo_info">
+                    <p>Position: <b class="info">Something</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="ceo_section">
+            <img class="ceo_image" src="/images/programmer.png" alt="CEO Image">
+            <div class="ceo_info_container">
+                <h2 class="ceo_name">Mhar Jane William</h2>
+                <div class="ceo_info">
+                    <p>Position: <b class="info">Something</b></p>
+                </div>
+            </div>
+        </div>        
         
     </main>
+
+    <script src="scripts/navbar_settings.js"></script>
 </body>
 </html>
