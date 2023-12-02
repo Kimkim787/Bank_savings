@@ -28,6 +28,8 @@ h2.ceo_name{
     font-size: 3rem;
     text-align: center;
 }
+
+/* OLD RULES below are unused but kept anyway: */
 #grid_container{
     display: flex;
     justify-content: center;
