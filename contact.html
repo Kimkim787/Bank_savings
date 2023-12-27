@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="stylesheet/navbar.css">
     <link rel="stylesheet" href="stylesheet/contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
     <nav id="navbar">
@@ -18,24 +19,23 @@
         <a class="icon" href="index.html"><img src="/images/logout.png" alt="login"></a>
     </nav>
     <main>
-        <div class="grid_container">
-            <p class="text">Save time in Word with new buttons that show up 
-                where you need them. To change the way a picture fits in your document, 
-                click it and a button for layout options appears next to it. 
-                When you work on a table, click where you want to add a row or a column, 
-                and then click the plus sign.
-            </p>
-            <div id="chat_container">
-                <div id="chat">
+        <div id="main_container">
+            <div id="Message">
+                <h1>Get in touch</h1>
+                <p>Feel free to reach out to us—we'd love to hear from you! Whether you have questions about our products, need assistance with an order, or just want to say hello, our dedicated team is here to help. </p>
+            </div>
+            <div id="chat">
+                <div id="chat_box">
+                    <h2>Bank Savings Contact Service</h2>
+                    <div id="chats_container"></div>
+                    <div id="text_box">
+                        <input type="text" placeholder="Write your message..." id="message_text">
+                        <button onclick="send_message()">Send</button>
+                    </div>
                 </div>
-                
-                <form action="" method="POST">
-                    <textarea id="message" name="message"></textarea>
-                    <input id="send_btn" type="submit" value="Send">
-                </form>
             </div>
         </div>
     </main>
-    
+    <script src="./scripts/contact.js"></script>
 </body>
 </html>

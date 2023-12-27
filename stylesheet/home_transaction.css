@@ -62,7 +62,7 @@ main{
     width: 60rem;
     height: 38rem;
     background-size: cover;
-    border-radius: 30px;
+    border-radius: 5px;
     overflow-y:auto;
 }
 
@@ -72,7 +72,7 @@ main{
     left: 0; 
     width: 100%;
     border-collapse: collapse;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 #transaction th, #transaction td {
