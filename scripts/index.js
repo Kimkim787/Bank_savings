@@ -29,5 +29,3 @@ function randomizer(){
     }
     let displayInterval = setInterval(display_letter, 200);
 }
-
-randomizer();
