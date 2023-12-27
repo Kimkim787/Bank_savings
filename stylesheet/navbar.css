@@ -2,12 +2,12 @@
     font-family: 'Roboto';
 }
 #page_logo{
-    border: 1px solid black;
     height: 50px;
     width: 50px;
     position: absolute;
     left: 10px;
-    border-radius: 100%;
+    background-image: url('../images/logo-01.png');
+    background-size: cover;
 }
 nav{
     position: fixed;
