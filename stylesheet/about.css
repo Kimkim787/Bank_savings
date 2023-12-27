@@ -2,9 +2,9 @@ main{
     margin: 0 5%;
     margin-top: 5%;
     /* background: rgb(189, 188, 188); */
-    padding: 5%;
-}
-#ceo_section{
+    padding: 2% 5%;
+}   
+.ceo_section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,10 +13,11 @@ main{
     width: 100%;
     max-height: 80%;
     height: 100%;
+    padding-bottom: 5%;
 }
 .ceo_image{
     position: relative;
-    width: 40%;
+    width: 30%;
 }
 .ceo_info_container{
     font-size: 2rem;
@@ -27,6 +28,8 @@ h2.ceo_name{
     font-size: 3rem;
     text-align: center;
 }
+
+/* OLD RULES below are unused but kept anyway: */
 #grid_container{
     display: flex;
     justify-content: center;

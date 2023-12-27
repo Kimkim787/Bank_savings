@@ -15,7 +15,7 @@ main{
     display:flex;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    margin: 10% 5%;
+    margin: 5% 5%;
     justify-content: space-evenly;
 }
 #text_div{

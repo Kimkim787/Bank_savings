@@ -26,13 +26,38 @@
                 <div id="inline-container">
                     <input class="inline-item" id="remember" type="checkbox" name="remember">
                     <label class="inline-item" for="remember">Remember me</label>
-                    <a href="#">Forgot Password?</a>
+                    <a class="to_right" href="#">Forgot Password?</a>
                 </div>
-                <input class="block_item btn" id="submit_button" type="submit" value="Sign-in">
+                <input class="block_item btn" type="submit" value="Sign-in">
             </form>
             <p class="center_item">or</p>
-            <button class="btn">Sign-up</button>
+            <button id="swap_signup" class="btn">Sign-up</button>
         </div>
+        <div id="signup_container">
+            <img class="center_item" id="logo" src="images/genshin.jpg" alt="logo">
+            <h1 class="center_item">Please fill up the form</h1>
+            <form action="" method="POST">
+                <!-- <label for="first_name">Name:</label> -->
+                <input class="userinput block_item" type="text" name="first_name" placeholder="Enter your Name" required autofocus>
+                <!-- <label for="last_name">Last Name:</label> -->
+                <input class="userinput block_item" type="text" name="last_name" placeholder="Enter your Lastname" required>
+                <!-- <label for="email">E-mail:</label> -->
+                <input class="userinput block_item" type="email" name="email" placeholder="Enter email" required>
+                <!-- <label for="password">New Password:</label> -->
+                <input class="userinput block_item" type="password" name="password" placeholder="Enter password" required>
+                <!-- <label for="confirm_password">Confirm Password:</label> -->
+                <input class="userinput block_item" type="password" name="confirm_password" placeholder="Confirm Password" required>
+                <div class="inline-container">
+                    <input class="inline-item" id="remember" type="checkbox" name="remember">
+                    <p class="inline_item">I agree to the website <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                </div>
+                <div class="btn-container">
+                    <img id="swap_login" class="left_arrow" src="/images/larr.png" alt="left_arrow">
+                    <input class="block_item btn" type="submit" value="Sign-up">
+                </div>
+            </form>
+        </div>
+    <script src="/scripts/login.js"></script>
     </main>
 </body>
 </html>
